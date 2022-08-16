@@ -1,25 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+const App = () => "Hola Mundo"; 
+//una manera de exportar desde la constnte
+//export const App = () => "Hola Mundo"; 
+
+export default App; //otra manera de exportar Solo puede haber un solo export defaul por archivo

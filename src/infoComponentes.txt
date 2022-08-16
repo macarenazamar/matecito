@@ -1,0 +1,3 @@
+COMPONENTES:
+1- Todos los componentes son funciones
+2-Todos los componentes incian con Mayuscula 
