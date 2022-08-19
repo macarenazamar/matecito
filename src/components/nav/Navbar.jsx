@@ -1,10 +1,13 @@
 import React from 'react'
-import UlInicio from '../ulInicio/UlInicio'
+import CartWidget from '../CartWidget/CartWidget'
+import UlInicio from '../UlInicio/UlInicio'
+import myStyles from './navbar.module.css'
 
 const Navbar = () => {
   return (
-    <nav>
-        <h1>BIENVENIDOS A MATECITO</h1>
+    <nav className={myStyles.contenedorStyle}>
+        <h1 className='titulo'>BIENVENIDOS A MATECITO</h1>
+        <CartWidget />
         <UlInicio />
     </nav>
   )

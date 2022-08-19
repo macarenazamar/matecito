@@ -1,0 +1,7 @@
+.contenedorStyle{
+    display: flex;
+    justify-content: space-between;
+}
+.titulo{
+    align-items: center;
+}

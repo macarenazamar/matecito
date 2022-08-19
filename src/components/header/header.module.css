@@ -1,3 +1,7 @@
 .contenedorStyle{
-    background-color: rgb(190, 240, 206);
+    background-color: #88bb63;
+}
+header{
+    padding: 10px;
+    margin-bottom: 10px;
 }

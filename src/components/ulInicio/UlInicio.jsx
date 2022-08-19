@@ -1,10 +1,10 @@
 import React from 'react'
-import estilos from './ulInicio.module.css';
+import myStyles from './ulInicio.module.css';
 
 
 const UlInicio = () => {
   return (
-    <ul className={estilos.contenedorStyle}>
+    <ul className={myStyles.contenedorStyle}>
         <li>
             <a href="https://google.com">Productos</a>
         </li>

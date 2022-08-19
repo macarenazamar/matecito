@@ -1,12 +1,19 @@
 import React from 'react';
-import estilos from "./main.module.css";
+import ItemListContainer from '../../ItemListContainer/ItemListContainer';
+import myStyles from "./main.module.css";
 
-const Main = () => {
+const Main = (props) => {
+  console.log(props.children);
   return (
-    <main className= {estilos.contenedorStyle}>
-        <section>
-            <h2>Un MATECITO?</h2>
-        </section>
+    <main className= {myStyles.contenedorStyle}>
+      <h2>Un MATECITO?</h2>
+      <ItemListContainer 
+        saludo='probando porpiedades' 
+        fechaDia={19} 
+        fechaMes={8}
+        alumno={{nombre:'Macarena', entrega: 'componentes I'}}
+      />
+
     </main>
   )
 }

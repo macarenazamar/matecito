@@ -1,10 +1,10 @@
 import React from 'react';
-import UlInicio from '../ulInicio/UlInicio';
-import estilos from './footer.module.css';
+import UlInicio from '../UlInicio/UlInicio';
+import myStyles from './footer.module.css';
 
 const Footer = () => {
   return (
-    <footer className={estilos.contenedorStyle}>
+    <footer className={myStyles.contenedorStyle}>
       <h5>Recorrido del sitio</h5>
       <UlInicio />
       <h5>By MATECITO</h5>
