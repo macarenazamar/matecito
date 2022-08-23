@@ -1,5 +1,5 @@
 import React from 'react';
-import ItemListContainer from '../../ItemListContainer/ItemListContainer';
+import ItemListContainer from '../ItemListContainer/ItemListContainer';
 import myStyles from "./main.module.css";
 
 const Main = (props) => {
@@ -9,9 +9,9 @@ const Main = (props) => {
       <h2>Un MATECITO?</h2>
       <ItemListContainer 
         saludo='probando porpiedades' 
-        fechaDia={19} 
+        fechaDia={23} 
         fechaMes={8}
-        alumno={{nombre:'Macarena', entrega: 'componentes I'}}
+        alumno={{nombre:'Macarena', entrega: 'componentes II'}}
       />
 
     </main>

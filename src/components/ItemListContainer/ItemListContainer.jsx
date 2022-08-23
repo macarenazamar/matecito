@@ -1,10 +1,15 @@
 import React from 'react'
+import ItemCounter from '../ItemCounter/ItemCounter'
 import myStyles from './itemListContainer.module.css'
 
 const ItemListContainer = (greeting) => {
   //console.log(greeting.test);
   const saludo = greeting.saludo
   const {fechaMes} = greeting
+
+  const onAdd = (cantidad) => {
+    alert(`Compraste ${cantidad} unidades`)
+  }
   
   return (
     <div className={myStyles.contenedorStyle}>
@@ -16,6 +21,7 @@ const ItemListContainer = (greeting) => {
       <p>
       Alumno: {greeting.alumno.nombre} Entregable de clase: {greeting.alumno.entrega}
       </p>
+      <ItemCounter initial={0} stock={5} onAdd={onAdd}/>
 
     </div>
   )
