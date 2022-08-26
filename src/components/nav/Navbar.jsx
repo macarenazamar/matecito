@@ -1,6 +1,6 @@
 import React from 'react'
-import CartWidget from '../CartWidget/CartWidget'
-import UlInicio from '../UlInicio/UlInicio'
+import CartWidget from '../cartWidget/CartWidget'
+import UlInicio from '../ulInicio/UlInicio'
 import myStyles from './navbar.module.css'
 
 const Navbar = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import ItemListContainer from '../ItemListContainer/ItemListContainer';
+import ItemListContainer from '../itemListContainer/ItemListContainer';
 import myStyles from "./main.module.css";
 
 const Main = (props) => {

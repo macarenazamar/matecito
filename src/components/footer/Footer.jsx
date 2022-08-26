@@ -1,5 +1,5 @@
 import React from 'react';
-import UlInicio from '../UlInicio/UlInicio';
+import UlInicio from '../ulInicio/UlInicio';
 import myStyles from './footer.module.css';
 
 const Footer = () => {
