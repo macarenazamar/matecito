@@ -8,10 +8,8 @@ const Main = (props) => {
     <main className= {myStyles.contenedorStyle}>
       <h2>Un MATECITO?</h2>
       <ItemListContainer 
-        saludo='probando porpiedades' 
-        fechaDia={23} 
-        fechaMes={8}
-        alumno={{nombre:'Macarena', entrega: 'componentes II'}}
+        saludo='Clase Promises, Asincronia y MAP' 
+        
       />
 
     </main>
