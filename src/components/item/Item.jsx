@@ -1,14 +1,9 @@
 import React from 'react'
-import './item.css'
 
 const Item = () => {
-        return (
-          <div>
-            
-          </div>
-        )
-
-      }
-    
+  return (
+    <div>Item</div>
+  )
+}
 
 export default Item

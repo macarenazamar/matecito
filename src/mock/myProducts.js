@@ -1,4 +1,4 @@
-export const myProductos = [
+export const myProducts = [
     {
         id: 1,
         title: 'Rosamonte 1 kg',

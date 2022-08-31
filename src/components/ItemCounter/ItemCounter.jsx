@@ -5,7 +5,6 @@ const ItemCounter = ({initial, stock, onAdd}) => {
 
     const [count, setCount] = useState(parseInt(initial));
 
-
     const restar = () => {
         setCount(count - 1);
     }
@@ -20,12 +19,15 @@ const ItemCounter = ({initial, stock, onAdd}) => {
 
 
   return (
-    <div className='counter'>
-        <button disabled={count <= 0} onClick={restar}>-</button>
-        <p>Cantiad de articulos: {count}</p>
-        <button onClick={sumar}>+</button>
+    <div className='counterContainer'>
+        <p className='counter'>Cantiad de articulos: {count}</p>
+        <div className='butonCounter'>
+            <button className='butonCount' disabled={count <= 0} onClick={restar}>-</button>
+            <button className='butonCount' onClick={sumar}>+</button>
+
+        </div>
         <div>
-            <button disabled={stock <=0} onClick={() => onAdd(count)}>Agregar al carrito</button>
+            <button className='butonCountAdd' disabled={stock <=0} onClick={() => onAdd(count)}>Agregar al carrito</button>
         </div>
     </div>
   )

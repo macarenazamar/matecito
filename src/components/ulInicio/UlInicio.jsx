@@ -5,14 +5,14 @@ import myStyles from './ulInicio.module.css';
 const UlInicio = () => {
   return (
     <ul className={myStyles.contenedorStyle}>
-        <li>
-            <a href="https://google.com">Productos</a>
+        <li className='liInicio'>
+            <a className='aInicio' href="https://google.com">Productos</a>
         </li>
-        <li>
-            <a href="https://google.com">Nosotros</a>
+        <li className='liInicio'>
+            <a className='aInicio' href="https://google.com">Nosotros</a>
         </li>
-        <li>
-            <a href="https://google.com">Contactos</a>
+        <li className='liInicio'>
+            <a className='aInicio' href="https://google.com">Contactos</a>
         </li>
     </ul>
   )

@@ -1,41 +1,29 @@
 import React, { useEffect, useState } from 'react';
 import ItemCounter from '../itemCounter/ItemCounter';
-import myStyles from './itemListContainer.module.css';
-import { myProductos } from '../../mock/myProducts';
 import ItemList from '../itemList/ItemList';
+import {myProducts} from '../../mock/myProducts';
+import myStyles from './itemListContainer.module.css';
 
 const ItemListContainer = (greeting) => {
-  //console.log(greeting.test);
-  const saludo = greeting.saludo;
+    const saludo = greeting.saludo;
 
-  const onAdd = (cantidad) => {
+    const onAdd = (cantidad) => {
     alert(`Compraste ${cantidad} unidades`)
-  };
+  }; 
 
-  //hook que me permite guardar los productos, lu uso en el then
-  const [items, setItems] = useState ([])
+    //hook que me permite guardar los productos
+    const [items, setItems] = useState ([])
 
-  //Primero renderiza y luego viene al useEffect
-    useEffect (() => {
-      const getMyProducts = new Promise ((res, rej) => {
-        setTimeout (() => {
-          res (myProductos);
-        }, 2000);
+    //Primero renderiza luego viene al useEffect
+    useEffect (() =>{
+      const getMyProducts = () => new Promise((resolve, reject) => {
+        setTimeout(()=> resolve(myProducts), 2000)
       });
-    
-      getMyProducts
-        .then((products) =>{
-        setItems(products);
-      })
-        .catch((error) =>{
-          console.error(error);
-        })
-        .finally(() =>{
-          console.log('finally: ');
-          //se ejecuta si o si, en teria despues del then y el catch, pero no siempre
-        });
-    }, []);
-  
+
+      getMyProducts ()
+        .then(myProducts => setItems(myProducts))
+        .catch(error => console.error(error))
+    }, [])    
 
   return (
     <div className={myStyles.contenedorStyle}>

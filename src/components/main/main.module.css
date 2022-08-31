@@ -1,4 +1,6 @@
 .contenedorStyle {
+    display: flex;
+    flex-direction: column;
     min-height: 80vh;
     background-color: #e1ecd0;
     margin-bottom: 10px;

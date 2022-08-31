@@ -1,16 +1,16 @@
-import React from 'react'
-import Item from '../item/Item'
+import React from 'react';
+import Item from '../item/Item';
+import './itemList.css';
 
-const ItemList = () => {
+
+const ItemList = (items) => {
+    console.log('Soy los producots', items)
+    //cuando hago esto me aparece el error
+    items.map(dataProduct => console.log(dataProduct))
+
   return (
-    <div>
-        {Item.map(item => <Item 
-        key={item.id}
-        img={item.img} 
-        title={item.title}
-        />
-
-      )}
+    <div className='itemListContenedor'>
+        <Item/>
     </div>
   )
 }
