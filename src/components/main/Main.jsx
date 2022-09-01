@@ -1,16 +1,23 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import ItemListContainer from '../itemListContainer/ItemListContainer';
 import myStyles from "./main.module.css";
 
 const Main = (props) => {
-  console.log(props.children);
+  
   return (
     <main className= {myStyles.contenedorStyle}>
-      <h2>Un MATECITO?</h2>
-      <ItemListContainer 
-        saludo='Clase Promises, Asincronia y MAP' 
-        
-      />
+      <Routes>
+        <Route 
+        //path es la direccion de la ruta
+        //es la direccion url en la cual voy a estar parado para ver el componente que especifico en element
+        // si es '/' es el home
+          path='/'
+        //element es la propiedad que me permite mostrar el componente que quiero ver en pantalla
+          element={<ItemListContainer saludo='Un Matecito?'/>}
+        />
+      </Routes>
+      
 
     </main>
   )

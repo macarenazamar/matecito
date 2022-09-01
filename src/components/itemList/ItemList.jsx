@@ -3,16 +3,19 @@ import Item from '../item/Item';
 import './itemList.css';
 
 
-const ItemList = (items) => {
-    console.log('Soy los producots', items)
+const ItemList = ({items}) => {
+    //console.log('Soy los producots', items)
+    
     //cuando hago esto me aparece el error
-    items.map(dataProduct => console.log(dataProduct))
+    items.map(item => console.log(item.title))  
 
   return (
     <div className='itemListContenedor'>
-        <Item/>
+     
+    
     </div>
   )
 }
 
 export default ItemList
+
