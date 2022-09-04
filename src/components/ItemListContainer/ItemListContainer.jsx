@@ -3,6 +3,7 @@ import ItemCounter from '../itemCounter/ItemCounter';
 import ItemList from '../itemList/ItemList';
 import {myProducts} from '../../mock/myProducts';
 import myStyles from './itemListContainer.module.css';
+import ItemDetailContainer from '../itemDetailContainer/ItemDetailContainer';
 
 const ItemListContainer = (greeting) => {
     const saludo = greeting.saludo;
@@ -31,6 +32,7 @@ const ItemListContainer = (greeting) => {
       <p>{saludo}</p>
       <ItemCounter initial={0} stock={5} onAdd={onAdd}/>
       <ItemList items={items}/>
+      <ItemDetailContainer/>
       
 
     </div>

@@ -7,7 +7,8 @@ const Item = ({info}) => {
     <div className='itemStyle'>
       <h4>{info.title}</h4>
       <div>
-        <img className='imgProduct' src={info.img} alt={`Imagen del producto ${info.title}`}/>
+        <img className='imgProduct' src={info.img} 
+          alt={`Imagen del producto ${info.title}`}/>
       </div>
       <p>€ {info.price} </p>
 
