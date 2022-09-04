@@ -1,10 +1,17 @@
-import React from 'react'
+import React from 'react';
+import './item.css';
 
-
-
-const Item = () => {
+const Item = ({info}) => {
+  console.log(info)
   return (
-    <div>Item</div>
+    <div className='itemStyle'>
+      <h4>{info.title}</h4>
+      <div>
+        <img className='imgProduct' src={info.img} alt={`Imagen del producto ${info.title}`}/>
+      </div>
+      <p>€ {info.price} </p>
+
+    </div>
   )
 }
 

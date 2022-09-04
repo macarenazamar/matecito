@@ -1,0 +1,11 @@
+.itemStyle{
+    display: flex;
+    flex-wrap: wrap;
+    width: 18rem;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 20px;
+}
+.imgProduct{
+    width: 50%;
+}

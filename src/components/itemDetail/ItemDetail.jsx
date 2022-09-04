@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ItemDetail = () => {
+const ItemDetail = ({unicoProd}) => {
   return (
     <div>Creo van los detalles de los productos</div>
   )
