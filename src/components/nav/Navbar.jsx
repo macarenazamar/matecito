@@ -1,5 +1,5 @@
 import React from 'react'
-import CartWidget from '../cartWidget/CartWidget'
+import CartWidget from '../CartWidget/CartWidget'
 import UlInicio from '../ulInicio/UlInicio'
 import myStyles from './navbar.module.css'
 

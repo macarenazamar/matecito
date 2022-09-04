@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import ItemListContainer from '../itemListContainer/ItemListContainer';
+import ItemListContainer from '../ItemListContainer/ItemListContainer';
 import myStyles from "./main.module.css";
 
 const Main = (props) => {
@@ -17,8 +17,6 @@ const Main = (props) => {
           element={<ItemListContainer saludo='Un Matecito?'/>}
         />
       </Routes>
-      
-
     </main>
   )
 }
