@@ -24,7 +24,8 @@ const ItemDetailContainer = () => {
             resolve(itemId ? unProduct : myProducts);
         }, 2000);
       });
-      getInfoUnProduct.then(res => setInfo(res));
+      getInfoUnProduct ()
+      .then(res => setInfo(res));
     }, [itemId])
 
   //const unProduct = products.find((unProduct)=> myProducts.id === 2)
