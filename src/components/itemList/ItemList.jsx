@@ -3,7 +3,7 @@ import Item from '../item/Item';
 import './itemList.css';
 
 const ItemList = ({items}) => {
-  console.log('Soy los productos', items)
+  //console.log('Soy los productos', items)
   
   return (
     <div>

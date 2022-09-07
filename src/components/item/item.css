@@ -1,11 +1,40 @@
 .itemStyle{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     width: 18rem;
-    border: 2px solid black;
     border-radius: 10%;
+    border: 1px solid rgb(174, 182, 174);
     padding: 20px;
+    box-shadow: 3px 3px 15px 1px rgb(158, 158, 157);
+    margin: 20px 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.itemStyle:hover{
+    box-shadow: 3px 3px 15px 5px rgb(69, 102, 66);
 }
 .imgProduct{
-    width: 50%;
+    width: 200px;    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.infoProduct{
+    padding: 10px;
+}
+.infoProduct h3{
+    margin-bottom: 10px;
+}
+.infoProduct p{
+    background-color: #3b443a;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.infoProduct p:hover{
+    background-color: rgb(118, 190, 118);
+    color: black;
+    font-weight: 550;
 }
