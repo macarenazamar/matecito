@@ -33,8 +33,7 @@ const ItemDetailContainer = () => {
   return (
     <div className='itemDetailContainer'>
         <ItemDetail info={info}/>
-        <ItemCounter initial={0} stock={5} onAdd={onAdd}/>
-        
+        <ItemCounter initial={0} stock={5} onAdd={onAdd}/>  
     </div>
   )
 }

@@ -10,7 +10,7 @@ const Item = ({info}) => {
   };
   return (
     <div className='itemStyle'>
-      <Link to={`/detail/${Item.id}`}>
+      <Link to={`/detail/${info.id}`}>
         <div>
           <img className='imgProduct' src={info.img} 
             alt={`Imagen del producto ${info.title}`}/>
