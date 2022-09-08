@@ -1,4 +1,5 @@
 import React from 'react'
+import Formulario from '../Formulario/Formulario';
 //import CartWidget from '../CartWidget/CartWidget'
 import ItemCounter from '../ItemCounter/ItemCounter';
 
@@ -10,6 +11,7 @@ const Carrito = () => {
     <div>
         Carrito
         <ItemCounter initial={0} stock={5} onAdd={onAdd}/>
+        <Formulario/>
     </div>
   )
 }
