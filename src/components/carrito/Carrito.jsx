@@ -1,6 +1,6 @@
 import React from 'react'
 //import CartWidget from '../CartWidget/CartWidget'
-import ItemCounter from '../itemCounter/ItemCounter'
+import ItemCounter from '../ItemCounter/ItemCounter';
 
 const Carrito = () => {
     const onAdd = (cantidad) => {

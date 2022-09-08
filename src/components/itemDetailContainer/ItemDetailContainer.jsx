@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import ItemDetail from '../itemDetail/ItemDetail';
-import ItemCounter from '../itemCounter/ItemCounter';
+import ItemCounter from '../ItemCounter/ItemCounter';
 import { useParams } from 'react-router-dom';
 import { myProducts } from '../../mock/myProducts';
 
