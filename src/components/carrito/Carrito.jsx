@@ -1,16 +1,17 @@
 import React from 'react'
+import { useContext } from 'react';
+import { CartContext } from '../../context/CartContext';
 import Formulario from '../Formulario/Formulario';
-//import CartWidget from '../CartWidget/CartWidget'
-import ItemCounter from '../ItemCounter/ItemCounter';
+//import CartWidget from '../CartWidget/CartWidget';
+
 
 const Carrito = () => {
-    const onAdd = (cantidad) => {
-        alert(`Compraste ${cantidad} unidades`)
-      };
+  const {clearCart} = useContext(CartContext);
+  
+    
   return (
     <div>
-        Carrito
-        <ItemCounter initial={0} stock={5} onAdd={onAdd}/>
+        <button onClick={clearCart}>Limpiar Carrito</button>
         <Formulario/>
     </div>
   )

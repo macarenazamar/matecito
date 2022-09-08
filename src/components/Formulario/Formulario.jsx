@@ -8,7 +8,7 @@ const Formulario = () => {
 
     const handleSubmit = (event) =>{
         event.preventDefault();
-        console.log(nombre, apellido, direccion)
+        //console.log(nombre, apellido, direccion)
     }
 
     const handleChangeNombre = (event) => {
