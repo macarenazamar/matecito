@@ -20,7 +20,7 @@ const Item = ({info}) => {
           <p>€ {info.price} </p>
         </div>
       </Link>
-      <ItemCounter initial={0} stock={5} onAdd={onAdd}/>
+      <ItemCounter initial={0} stock={info.stock} onAdd={onAdd}/>
 
     </div>
   )

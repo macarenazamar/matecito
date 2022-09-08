@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import ItemDetail from '../itemDetail/ItemDetail';
-import ItemCounter from '../ItemCounter/ItemCounter';
 import { useParams } from 'react-router-dom';
 import { myProducts } from '../../mock/myProducts';
 
@@ -9,9 +8,7 @@ import { myProducts } from '../../mock/myProducts';
 const ItemDetailContainer = () => {
   const {itemId} = useParams();
 
-  const onAdd = (cantidad) => {
-    alert(`Compraste ${cantidad} unidades`)
-  };
+  
 
   const [info, setInfo] = useState ({})
 
@@ -32,8 +29,7 @@ const ItemDetailContainer = () => {
 
   return (
     <div className='itemDetailContainer'>
-        <ItemDetail info={info}/>
-        <ItemCounter initial={0} stock={5} onAdd={onAdd}/>  
+        <ItemDetail info={info}/> 
     </div>
   )
 }
