@@ -2,7 +2,7 @@ export const myProducts = [
     {
         id: '1',
         title: 'YERBA Rosamonte 1 kg',
-        description: 'luego lo vemos tengo que inventar ',
+        description: 'La Yerba Mate Rosamonte es obtenida de una planta natural de inigualable sabor y notables cualidades, denominada Ilex paraguariensis. Sus hojas desecadas, ligeramente tostadas y desmenuzadas combinadas (o no) con pequeños fragmentos de ramas secas, dan paso a nuestra Yerba Mate ROSAMONTE, que mantiene un armonioso proceso de selección, molienda y estacionado, obteniendo así el equilibrado sabor que nos caracteriza.',
         price: 9.15,
         stock: 10,
         category: 'YerbaMate',
@@ -11,7 +11,7 @@ export const myProducts = [
     {
         id: '2',
         title: 'YERBA Playadito 1 kg',
-        description: 'luego lo vemos tengo que inventar ',
+        description: 'Playadito cuenta con más de 80 años de historia y experiencia en nuestra tradición mas arraigada: el mate. Su historia se remonta hacia el año 1926, cuando un grupo de inmigrantes alemanes fundan la Cooperativa Liebig en la Provincia de Corrientes, Argentina.Yerba Mate Playadito es producida con suma dedicación en cada paso de su elaboración, desde la selección de los plantines hasta la cosecha; desde el secado de las hojas maduras hasta su estacionamiento óptimo, de su molienda y envasado, para hacer de la yerba mate un producto único por sabor, suavidad y aroma, preparado para disfrutar del mejor mate.        Playadito está elaborada con palo y libre de gluten, se caracteriza por su delicioso sabor suave. Recomendado para quienes toman mate con frecuencia y prefieren sabores suaves y duraderos.',
         price: 8.55,
         stock: 10,
         category: 'YerbaMate',
@@ -20,7 +20,7 @@ export const myProducts = [
     {
         id: '3',
         title: 'YERBA Taragui 1 kg',
-        description: 'luego lo vemos tengo que inventar ',
+        description: 'Su sabor con cuerpo e intensidad justa representan las cualidades de la auténtica yerba mate. Tiene un blend armonioso y rendidor conformado por distintos tipos de yerba que se diferencian entre sí por la zona geográfica en donde se desarrolla la planta, por la época de cosecha y por el tipo de estacionamiento. Taragüi contiene yerbas de las zonas norte y centro de la provincia de Misiones, de la zona campo del nordeste de Corrientes; yerbas de verano y de invierno.',
         price: 8.49,
         stock: 10,
         category: 'YerbaMate',
@@ -29,7 +29,7 @@ export const myProducts = [
     {
         id: '4',
         title: 'Termo de vidrio 1 litro',
-        description: 'luego lo vemos tengo que inventar ',
+        description: 'Este Termo dispone de una boquilla para poder cebar mate fácilmente. Se recomienda guardar y transportar el termo lleno en posición vertical.',
         price: 12,
         stock: 5,
         category: 'Termos',
@@ -38,7 +38,7 @@ export const myProducts = [
     {
         id: '5',
         title: 'Termo de acero 1 litro',
-        description: 'luego lo vemos tengo que inventar ',
+        description: 'Termo de acero inoxidable de doble pared. Mantiene la temperatura varias horas, tiene boca ancha para una mejor limpieza cuenta con práctico diseño de tapón para servir con una mayor comodidad.',
         price: 8,
         stock: 5,
         category: 'Termos',
@@ -47,7 +47,7 @@ export const myProducts = [
     {
         id: '6',
         title: 'Mate Imperial',
-        description: 'luego lo vemos tengo que inventar ',
+        description: 'Es elaborado con calabazas seleccionadas que tienen una característica en particular: sus paredes son gruesas, porque al ser forradas en cuero ancho, lo harán más pesado, una característica distintiva de este tipo de mate.',
         price: 50,
         stock: 10,
         category: 'Mates',
@@ -56,7 +56,7 @@ export const myProducts = [
     {
         id: '7',
         title: 'Mate Acero',
-        description: 'luego lo vemos tengo que inventar ',
+        description: 'Elegante mate de acero inoxidable. Pesa poco y se ajusta perfectamente a la mano. Caliente o frío: el mate térmico de doble pared mantiene tus bebidas calientes o frías por más tiempo. Adecuado para el lavavajillas.',
         price: 13.49,
         stock: 10,
         category: 'Mates',
@@ -65,7 +65,7 @@ export const myProducts = [
     {
         id: '8',
         title: 'Mate Madera Algarrobo',
-        description: 'luego lo vemos tengo que inventar ',
+        description: 'Fabricado en madera de algarrobo. Lustrado en cera de abeja. Virola de aluminio pulido. Extra resistente. Requiere curado (Dejar reposar entre 18hs a 24hs con yerba húmeda)',
         price: 15.49,
         stock: 10,
         category: 'Mates',
