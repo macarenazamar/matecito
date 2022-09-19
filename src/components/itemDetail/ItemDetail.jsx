@@ -31,12 +31,12 @@ const ItemDetail = ({info}) => {
           ) : (
             <Link to='/carrito'>Ir al carrito</Link>
           )}
-        </div>
         
+        </div>
       </div>
 
     </div>
   )
 }
-
+//no se como seguir//
 export default ItemDetail
